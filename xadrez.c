@@ -9,30 +9,55 @@ printf ("Desafio de Xadrez - MateCheck\n");
 
 printf ("Nível Novato - Movimentação das Peças\n");
 
-int b, t = 1;
+// Declaracao de variaveis
 
-//while (b <= 5)
-//{
-//    printf ("Direita para cima\n", b, i ++);
-//}
+int b, r, t = 1;
+int bispo, rainha, torre;
+
+printf ("Escolha qual peça você quer mover.\n");
+printf ("Para movimentar o Bispo digite b:\n", bispo);
+//scanf ("%d", &escolha);
+printf ("Para escolher a Rainha digite r:\n", rainha);
+//scanf ("%d", &escolha);
+printf ("Para escolher a Torre digite t:\n", torre);
+//scanf ("%d", &escolha);
+
+// Implementação de Movimentação do Bispo
+if (bispo == "b" && bispo == "B")
+{
+    printf ("Voce escolheu o Bispo\n");
+
+while (b <= 5)
+{
+    printf ("Direita para cima\n", b, b ++);
+}
+}
+
+// Implementação de Movimentação da Torre
+
+else if (torre == "t" && torre == "T");
+{
+    printf ("Voce escolheu a Torre\n");
+
 
 do {
     printf ("Direita\n", t, t ++);
 
     } while (t <=5);
-
-
-    
-// Sugestão: Declare variáveis constantes para representar o número de casas que cada peça pode se mover.
-
-    // Implementação de Movimentação do Bispo
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
-
-    // Implementação de Movimentação da Torre
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Torre para a direita.
+    }
 
     // Implementação de Movimentação da Rainha
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Rainha para a esquerda.
+
+    if (rainha == "r" && rainha == "R");
+    {
+        ("Voce escolheu a Rainha\n");
+    
+    
+        for (int r = 1; r <=8; r++)
+    {
+        printf("Esquerda\n", r);
+    }
+    }
 
     // Nível Aventureiro - Movimentação do Cavalo
     // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
