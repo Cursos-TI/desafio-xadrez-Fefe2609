@@ -11,55 +11,29 @@ printf ("Nível Novato - Movimentação das Peças\n");
 
 // Declaracao de variaveis
 
-//int b, r, t = 1;
-//int bispo, rainha, torre;
-int i = 1;
-
-//printf ("Escolha qual peça você quer mover.\n");
-//printf ("Para movimentar o Bispo digite b:\n", bispo);
-//scanf ("%d", &escolha);
-//printf ("Para escolher a Rainha digite r:\n", rainha);
-//scanf ("%d", &escolha);
-//printf ("Para escolher a Torre digite t:\n", torre);
-//scanf ("%d", &escolha);
-
-// Implementação de Movimentação do Bispo
-//if (bispo == "b" && bispo == "B")
-//{
-//    printf ("Voce escolheu o Bispo\n");
-printf ("Movimento do Bispo\n");
-while (i <= 5)
-{
-    printf ("Direita para cima\n", i, i ++);
-}
-}
-
-// Implementação de Movimentação da Torre
-
-//else if (torre == "t" && torre == "T");
-//{
-//    printf ("Voce escolheu a Torre\n");
+int i, j ,l = 1;
 
 printf ("Movimento da Torre\n");
+
 do {
-    printf ("Direita %d\n", i, i ++);
+    printf ("Direita\n", i, i ++);
 
     } while (i <= 5);
-  //  }
 
-    // Implementação de Movimentação da Rainha
+printf ("Movimento do Bispo\n");
+while (j <= 5)
+{
+    printf ("Direita para cima\n", j, j ++);
+}
 
-    //if (rainha == "r" && rainha == "R");
-    //{
-    //    ("Voce escolheu a Rainha\n");
-    
-    printf ("Movimento da Rainha\n");
-        for (int i = 1; i <= 8; i++)
+printf ("Movimento da Rainha\n");
+    for (int l = 1; l <= 8; l++)
     {
-        printf("Esquerda %d\n", i);
+        printf("Esquerda\n", l);
     }
-    //}
-
+    
+    
+   
     // Nível Aventureiro - Movimentação do Cavalo
     // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
     // Um loop pode representar a movimentação horizontal e outro vertical.
